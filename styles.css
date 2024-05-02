@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+html, body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:active, a:visited, a:hover{
+    color:black
+}
+
+a:hover{
+    color:black
+}
+/* HEADER*/
+header{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    display: inline;
+    padding: 5%;
+    background-color: aquamarine;
+}
+
+header nav ul li:hover{
+    background-color: dodgerblue;
+}
+/* MAIN */
+main{
+    text-align: center;
+}
+
+main #banner{
+    background-image: url('./images/electrician.jpeg'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    opacity: 0.6;
+}
+
+main #banner p{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 2rem;
+    text-shadow: black 1px 0 10px;
+    color: white;
+}
+
+
+
+
