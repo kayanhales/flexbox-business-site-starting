@@ -40,6 +40,7 @@ header h1{
 }
 header nav ul {
   display: flex;
+
 }
 
 header nav ul li {
@@ -93,10 +94,11 @@ main #services{
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 main #services article{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -132,14 +134,14 @@ main #team{
 }
 main #team article{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
 main #team article p{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     width: 50%;
